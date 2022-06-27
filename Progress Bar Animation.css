@@ -1,0 +1,32 @@
+.c-loading .elementor-progress-wrapper {
+    -webkit-animation-duration: 10s;
+    animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: loading;
+    animation-name: loading;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@keyframes loading {
+  from { padding-right: 45%; }
+  to { padding-right: 5%; }
+}
+.c-loading .elementor-progress-wrapper {
+    border: 2px solid #a09b9b;
+    height: 21px;
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
+.c-loading .elementor-progress-bar {
+    transform: skewX(-40deg);
+    width: 100% !important;
+    height: 100% !important;
+    position: relative;
+    left: -10px;
+}
+.custom_bg {
+    backdrop-filter: blur(40px);
+    background: rgba(40,39,40,.8);
+}
